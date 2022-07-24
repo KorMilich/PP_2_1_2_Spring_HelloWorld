@@ -1,5 +1,11 @@
-public class HelloWorld {
- 
+import org.springframework.stereotype.Component;
+
+
+class HelloWorld {
+    public HelloWorld() {
+        System.out.println("HelloWorld been is created");
+    }
+
     private String message;
  
     public String getMessage() {
